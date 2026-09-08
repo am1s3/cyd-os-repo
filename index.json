@@ -1,0 +1,32 @@
+{
+  "repo": "cyd-os-repo",
+  "updated": "2026-09-08",
+  "packages": [
+    {
+      "name": "hello",
+      "version": "1.0.0",
+      "desc": "Test package from GitHub",
+      "run": "/bin/hello.sh",
+      "files": [
+        {
+          "dst": "/bin/hello.sh",
+          "url": "https://raw.githubusercontent.com/OWNER/cyd-os-repo/main/packages/hello/hello.sh",
+          "exec": true
+        }
+      ]
+    },
+    {
+      "name": "sysinfo",
+      "version": "1.1.0",
+      "desc": "System info script package",
+      "run": "/bin/sysinfo.sh",
+      "files": [
+        {
+          "dst": "/bin/sysinfo.sh",
+          "url": "https://raw.githubusercontent.com/OWNER/cyd-os-repo/main/packages/sysinfo/sysinfo.sh",
+          "exec": true
+        }
+      ]
+    }
+  ]
+}
